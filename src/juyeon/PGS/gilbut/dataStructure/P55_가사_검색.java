@@ -8,9 +8,8 @@ public class P55_가사_검색 {
                 new String[]{"fro??", "????o", "fr???", "fro???", "pro?"}))); // 3, 2, 4, 1, 0
     }
 
+    // 정확성 테스트 통과 / 효율성 테스트 실패 🚨🚨🚨
     private static int[] solution(String[] words, String[] queries) {
-
-        // 효율성 테스트 실패
         int[] answer = new int[queries.length];
         StringBuilder sb = new StringBuilder();
 
@@ -52,5 +51,4 @@ public class P55_가사_검색 {
 
         return answer;
     }
-
 }
