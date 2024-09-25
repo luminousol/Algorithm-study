@@ -34,7 +34,7 @@ public class PGS60_단어변환 {
                 visited[i] = true;
                 int answer = changeword(words[i], target, words, visited);
                 if(answer > 0) {
-                    return answer + 1; // answer++ 하면 나중에 더해져서 안됨
+                    return ++answer;
                 }
                 visited[i] = false;
             }

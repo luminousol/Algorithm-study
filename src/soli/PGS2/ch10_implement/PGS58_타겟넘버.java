@@ -1,6 +1,5 @@
 package soli.PGS2.ch10_implement;
 
-import soli.PGS.ch10_implement.PGS56;
 
 public class PGS58_타겟넘버 {
 
